@@ -21,7 +21,7 @@ jobs:
 
   cloneRepo:
     resources:
-      instance-type: C4
+      instance-type: Free-CPU
     outputs:
       repo:
         type: volume
